@@ -10,6 +10,8 @@
     float       pavilion_get_cash(pavilion p);
     void        pavilion_set_cash(pavilion p, float cash);
 
+    int         pavilion_get_num_trampolines(pavilion p);
+
     status      pavilion_add_client(pavilion p, char* name, int num_id, int num_tax);
     client      pavilion_remove_client(pavilion p, int num_id);
     bool        pavilion_exists_client(pavilion p, int num_id);
