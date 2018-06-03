@@ -185,6 +185,17 @@ void pavilion_set_cash(pavilion p, float cash)
 
 
 /*===================================
+         pavilion_set_cash
+       Set the amount of cash
+===================================*/
+
+int pavilion_get_num_trampolines(pavilion p)
+{
+    return p->num_trampolines;
+}
+
+
+/*===================================
         pavilion_add_client
     Add a client to the pavilion
 ===================================*/
